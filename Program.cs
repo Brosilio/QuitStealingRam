@@ -133,8 +133,10 @@ namespace QuitStealingRamDotNet
         /// <summary>
         /// Only processes whose names contain something on this list will be killed
         /// This is a comma separated string in the config file
+        /// It's reccommended to leave itself in the shitlist because it might end up leaking more memory it saves
+        /// so it saves your computer from an OOM state by suiciding.
         /// </summary>
-        public readonly string[] Shitlist = { "google chrome", "discord" };
+        public readonly string[] Shitlist = { "google chrome", "discord", "quitstealingramdotnet" };
 
         /// <summary>
         /// Always kills the process with the highest memory usage regardless of whether or not it's on the shitlist. #DeathTo
