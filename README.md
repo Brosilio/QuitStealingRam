@@ -19,6 +19,7 @@ Config Options:
 * Killstreak - The number of processes to kill if possible
 * Prolicide - Relentlessly slaughter the children of the process too
 * Shitlist - The list of processes that can be killed if they gnarf up too much ram
+* DeathTo - If this is true, quitstealingram will always kill the process that uses too much memory even if it's not on the shitlist
 ```
 
 ## Adding to the shitlist
