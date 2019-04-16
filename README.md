@@ -8,7 +8,7 @@ https://github.com/zeroxthreef/Quit-Stealing-Ram
 Are you absolutely tired of inefficient programs stealing all of your ram? I know I am, and I made this out of pure hatred of being stuck in an OOM state because I disabled swapfiles to preserve my SSD.
 I was too lazy to implement some sort of config file system but the base is there for one.
 Modify the values directly.
-Probably should run it as administrator.
+Probably should run it as administrator. P.S. there's a memory leak in this somewhere so it might end up killing itself. Just restart it if it does.
 
 ## Instructions
 ```
